@@ -44,3 +44,15 @@ For more details, follow: https://forum.opnsense.org/index.php?topic=6942.msg358
     
 This process took a lot longer than planned and I've just completed it. I will have to repeat it and will update this documentation then.
 Andre Serralheiro
+
+
+
+#### 20241117 ####
+
+https://pcengines.github.io/#mr-63
+HOW TO https://github.com/pcengines/apu2-documentation/blob/master/docs/firmware_flashing.md
+
+https://github.com/pcengines/apu2-documentation/tree/master/scripts/apu_fw_updater_opnsense.sh !!! download fails but the logic is the same as in the howto (plus reboot which should be powerdown)
+
+flashrom -p internal -w apu2_v4.19.0.1.rom --fmap -i COREBOOT -c W25Q64BV/W25Q64CV/W25Q64FV
+
