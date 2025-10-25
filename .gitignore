@@ -1,0 +1,23 @@
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.env.local
+
+# ISO and image files
+*.iso
+*.img
+*.img.bz2
+*.rom
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# System configuration
+.env
+config.local.sh
