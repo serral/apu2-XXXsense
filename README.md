@@ -297,7 +297,7 @@ dd if=/dev/zero of=/dev/ada0 bs=64k
 
 ## Notes
 
-This guide is based on practical experience migrating an APU2e4 from pfSense to OPNsense on macOS. The original reference material was provided by [Tristan Greaves](https://extricate.org/2020/05/10/home-firewall-pc-engines-apu2-e2-pfsense-and-opnsense-build-courtesy-of-linitx/).
+This guide is based on practical experience migrating an APU2e4 from pfSense to OPNsense on macOS. The original reference material was provided by [Tristan Greaves](https://extricate.org/home-firewall-pc-engines-apu2-e2-pfsense-and-opnsense-build-courtesy-of-linitx/).
 
 Last updated: October 2024
 
